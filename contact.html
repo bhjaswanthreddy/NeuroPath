@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Feedback – NeuroPath</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">NeuroPath</div>
+    <nav>
+      <ul>
+        <li><a href="index.html#problem">Problem</a></li>
+        <li><a href="index.html#how">How It Works</a></li>
+        <li><a href="index.html#who">Who It’s For</a></li>
+        <li><a href="index.html#testimonials">Testimonials</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section style="padding-top:7rem; padding-bottom:4rem;">
+      <h2 class="section-title">We’d Love Your Feedback</h2>
+      <p style="text-align:center;max-width:700px;margin:0 auto 2rem;">NeuroPath is still growing, and we value your input. Whether you want to help us test, collaborate on content or simply share your thoughts, please reach out below.</p>
+      <form id="contact-form">
+        <label for="cname">Name</label>
+        <input type="text" id="cname" name="name" placeholder="Your full name" required>
+        <label for="cemail">Email</label>
+        <input type="email" id="cemail" name="email" placeholder="your@email.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Let us know how we can improve or collaborate..." required></textarea>
+        <fieldset style="border:none;display:flex;flex-direction:column;gap:0.5rem;">
+          <legend style="font-weight:600;margin-bottom:0.5rem;">I am interested in:</legend>
+          <label><input type="checkbox" name="interests" value="Beta User"> Joining the beta program</label>
+          <label><input type="checkbox" name="interests" value="Collaborator"> Collaborating on content</label>
+          <label><input type="checkbox" name="interests" value="Teacher"> Becoming a teacher/test partner</label>
+        </fieldset>
+        <button type="submit" class="btn">Send Feedback</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 NeuroPath. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
